@@ -1,0 +1,46 @@
+/* ===============================
+   WP Audit Footprint – Admin UI
+=============================== */
+
+.waf-admin .description{
+	margin-top: 6px;
+	margin-bottom: 12px;
+}
+
+.waf-admin .waf-toolbar{
+	display:flex;
+	gap:8px;
+	align-items:center;
+	margin:14px 0 18px;
+	flex-wrap:wrap;
+}
+
+.waf-admin .waf-filters select{
+	margin-right: 6px;
+}
+
+.waf-admin .waf-badge{
+	display:inline-flex;
+	align-items:center;
+	padding:4px 10px;
+	border-radius:999px;
+	font-size:11px;
+	font-weight:700;
+	letter-spacing:.4px;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:1.2;
+}
+
+.waf-admin .waf-green{ background:#1f9d55; }
+.waf-admin .waf-gray{ background:#6b7280; }
+.waf-admin .waf-red{ background:#dc2626; }
+.waf-admin .waf-blue{ background:#2563eb; }
+.waf-admin .waf-purple{ background:#7c3aed; }
+.waf-admin .waf-orange{ background:#f59e0b; }
+.waf-admin .waf-default{ background:#111827; }
+
+/* Solo afecta a la tabla del plugin */
+.waf-admin .wp-list-table .column-description{
+	max-width: 520px;
+}
